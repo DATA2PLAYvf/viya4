@@ -1,0 +1,12 @@
+# clone this repo
+
+$tempDir = "c:/temp"
+
+
+Remove-Item -Force -Recurse "$tempdir/viya4-iac-aws"
+git clone https://github.com/sassoftware/viya4-iac-aws  "$tempDir/viya4-iac-aws"
+
+$env:TF_VAR_aws_access_key_id=ASIAVQKEXTN5A4UA4TIA
+$env:TF_VAR_aws_secret_access_key=gw8UjAZBRXBDj5Pl9PPnCUzAr98C7xRAmSpfl/KS
+$env:TF_VAR_aws_session_token=IQoJb3JpZ2luX2VjEEUaCXVzLWVhc3QtMSJIMEYCIQCyB6VqGSQdc80NmQjMB41av+GTMGJxP/GuUPZ34xy0SAIhAK+PJMgRJOo3HMdHCldXCDGI3SATBJKsLqBCXlKtY6eeKqACCN7//////////wEQABoMMzc4NjM4MTQ2NDI2IgzwwULO5CRhJyjAKYAq9AHnmHyrf89eHmOMYdaoyJjsGqCL/VjT9VBM6mWQYuB8KvMJHXNpOYWNItcCVkdk09wRPpqnjX2oYwSLK9ZjT2favCMA8p/C5TxqnBK4XYe5i+1xQym4dBItVGTMbOPO3lP6tGnjnAXSKoWQM+/XxT6C56qsfOZwMLzPwwed7WiaoexgeYGoAUtr0WnZSdyCwbexULXjtr2iQ4reHxSz4vph5+npOSqvZfbd1PgaSQdkART5KGRgOexg+64Z4e/35g/pHA/ORS5J/U8SylBBao8nwisqTniPUxZkOR7WAiQceIrNHkTKuNU0sxFOVy3/kTNv841fMOv82Z8GOpwBs0tEJpUOLLy1voUZ4TzyHMYymxCY+IOMnrsCFi6N3ZDKY8yS+mGiLdHu6J8ZoqhIPE72zHm/R1oZDs6PwKfgj20f4G3Nb9KK3Km3DjGubwCrdixkqDx8KkLO6x8jl6FjtojZFVYg/4WsVVEsTsU0RWBLIjqqqXgydVjre/AxrHrpAcW8gH4XcghMGwfysHTMzzFiFhJdsF7x/y1v
+
